@@ -8,27 +8,36 @@
 </head>
 <body>
     <header>
-        <h1>Cr1s</h1>
+        <h1>Mixspace</h1>
     </header>
-    
-    <section class="mixes">
+    <main>
         <h2>My Mixes</h2>
-        <div class="mix">
-            <h3>Rise & Vibe</h3>
-            <audio controls>
-                <source src="trap.mp3" type="audio/mpeg">
-                Your browser doesn’t support audio.
-            </audio>
-            <a href="trap.mp3" download>Download</a>
+        <div class="mix-container">
+            <div class="mix">
+                <h3>Mix 1</h3>
+                <audio controls>
+                    <source src="trap.mp3" type="audio/mp3">
+                    Your browser doesn’t support audio.
+                </audio>
+                <button class="download-btn" onclick="window.location.href='trap.mp3'">Download</button>
+            </div>
+            <!-- Add more mixes here, e.g., -->
+            <div class="mix">
+                <h3>Mix 2</h3>
+                <audio controls>
+                    <source src="mix2.mp3" type="audio/mp3">
+                </audio>
+                <button class="download-btn" onclick="window.location.href='mix2.mp3'">Download</button>
+            </div>
         </div>
-        <!-- Add more mixes here -->
-    </section>
-    
+    </main>
     <footer>
-        <h2>Follow Me</h2>
-        <a href="https://www.instagram.com/call_.me_cris/" target="_blank">Instagram</a>
-        <!-- Add more socials -->
+        <div class="social-links">
+            <a href="https://twitter.com/yourhandle" target="_blank" aria-label="X">X</a>
+            <a href="https://instagram.com/call._me_cris" target="_blank" aria-label="Instagram">Instagram</a>
+        </div>
     </footer>
+</body>
 
     <script src="script.js"></script>
 </body>
