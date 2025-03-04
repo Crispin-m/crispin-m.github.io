@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Music Mixes</title>
+    <title>YourName - Music Mixes</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -12,13 +12,16 @@
     </header>
     <main>
         <h2>My Mixes</h2>
-        <div class="mix">
-            <h3>Rise & Vibe</h3>
-            <audio controls>
-                <source src="trap.mp3" type="audio/mpeg">
-                Your browser doesn’t support audio.
-            </audio>
-            <a href="trap.mp3" download>Download</a>
+        <div class="mix-container">
+            <div class="mix">
+                <h3>Mix 1</h3>
+                <audio controls>
+                    <source src="trap.mp3" type="audio/mp3">
+                    Your browser doesn’t support audio.
+                </audio>
+                <button class="download-btn" onclick="window.location.href='trap.mp3'">Download</button>
+            </div>
+            <!-- Add more mixes as needed -->
         </div>
     </main>
     <footer>
@@ -27,8 +30,5 @@
             <a href="https://instagram.com/call._me_cris" target="_blank" aria-label="Instagram">Instagram</a>
         </div>
     </footer>
-</body>
-
-    <script src="script.js"></script>
 </body>
 </html>
