@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+}
+
+.mixes {
+    padding: 20px;
+    text-align: center;
+}
+
+.mix {
+    margin: 20px 0;
+}
+
+audio {
+    display: block;
+    margin: 10px auto;
+}
+
+a {
+    color: #00ffcc;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+}
