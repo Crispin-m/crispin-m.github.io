@@ -2,10 +2,11 @@
 document.addEventListener('DOMContentLoaded', function() {
     const loader = document.getElementById('loader');
     const mixes = [
-        { title: "Mix 1", file: "trap.mp3" },
-        { title: "Mix 2", file: "Rise-Mix.mp3" },
-        { title: "Mix 3", file: "dancehall.mp3" },
-        { title: "Mix 4", file: "afro1.mp3" }
+        { title: "Mix 1", file: "1.mp3" },
+        { title: "Mix 2", file: "2.mp3" },
+        { title: "Mix 3", file: "3.mp3" },
+        { title: "Mix 4", file: "4.mp3" },
+        { title: "Mix 5", file: "5.mp3" }
     ];
 
     // Initialize mixes
